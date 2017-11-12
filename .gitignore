@@ -60,3 +60,6 @@ typings/
 
 # OS
 .DS_Store
+
+# Outputs 
+build/
