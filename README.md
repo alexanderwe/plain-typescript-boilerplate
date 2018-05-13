@@ -1,10 +1,6 @@
 # plain-typescript-boilerplate
 
-[![devDependencies Status](https://david-dm.org/alexanderwe/plain-typescript-boilerplate/dev-status.svg)](https://david-dm.org/alexanderwe/plain-typescript-boilerplate?type=dev)
-
-[![Known Vulnerabilities](https://snyk.io/test/github/alexanderwe/plain-typescript-boilerplate/badge.svg)](https://snyk.io/test/github/alexanderwe/plain-typescript-boilerplate)
-
-[![Build Status](https://travis-ci.com/alexanderwe/plain-typescript-boilerplate.svg?branch=master)](https://travis-ci.com/alexanderwe/plain-typescript-boilerplate)
+[![devDependencies Status](https://david-dm.org/alexanderwe/plain-typescript-boilerplate/dev-status.svg)](https://david-dm.org/alexanderwe/plain-typescript-boilerplate?type=dev) [![Known Vulnerabilities](https://snyk.io/test/github/alexanderwe/plain-typescript-boilerplate/badge.svg)](https://snyk.io/test/github/alexanderwe/plain-typescript-boilerplate) [![Build Status](https://travis-ci.com/alexanderwe/plain-typescript-boilerplate.svg?branch=master)](https://travis-ci.com/alexanderwe/plain-typescript-boilerplate)
 
 
 This is just a opinionated personal boilerplate for my Typescript projects. Feel free to use it for your own projects, modify it or open an issue if you feel like there is something wrong.
