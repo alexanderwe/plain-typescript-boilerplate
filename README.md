@@ -2,6 +2,10 @@
 
 [![devDependencies Status](https://david-dm.org/alexanderwe/plain-typescript-boilerplate/dev-status.svg)](https://david-dm.org/alexanderwe/plain-typescript-boilerplate?type=dev)
 
+[![Known Vulnerabilities](https://snyk.io/test/github/alexanderwe/plain-typescript-boilerplate/badge.svg)](https://snyk.io/test/github/alexanderwe/plain-typescript-boilerplate)
+
+[![Build Status](https://travis-ci.com/alexanderwe/plain-typescript-boilerplate.svg?branch=master)](https://travis-ci.com/alexanderwe/plain-typescript-boilerplate)
+
 
 This is just a opinionated personal boilerplate for my Typescript projects. Feel free to use it for your own projects, modify it or open an issue if you feel like there is something wrong.
 
@@ -34,3 +38,5 @@ yarn install
 * `watch` - uses the `watch` mode of tsc to constantly build your project on `src/*ts` changes
 * `test` - runs your tests via `jest` and creates a coverage report 
 * `doc` - creates documentation of your code
+
+Have fun while coding in Typescript ✌️
