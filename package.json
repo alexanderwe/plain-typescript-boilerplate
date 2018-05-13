@@ -1,5 +1,5 @@
 {
-  "name": "node-typescript-boilerplate",
+  "name": "plain-typescript-boilerplate",
   "version": "0.0.1",
   "description": "A boilerplate for Node Typescript projects.",
   "main": "index.js",
@@ -7,22 +7,24 @@
   "repository": "https://github.com/alexanderwe/node-typescript-boilerplate",
   "license": "MIT",
   "scripts": {
+    "style": "prettier --config ./.prettierrc ./src/*.ts",
     "start": "ts-node ./src/index.ts",
-    "build": "tsc --p tsconfig.json",
-    "test": "nyc mocha"
+    "build": "tsc --p tsconfig.json --declaration --target es5",
+    "watch": "tsc  -w --p tsconfig.json --declaration --target es5",
+    "test": "jest --coverage",
+    "doc": "typedoc --options ./typedoc-config.js && touch ./docs/.nojekyll"
   },
   "private": false,
   "devDependencies": {
-    "@types/chai": "^4.0.4",
-    "@types/chai-as-promised": "^7.1.0",
-    "@types/mocha": "^2.2.44",
-    "chai": "^4.1.2",
-    "chai-as-promised": "^7.1.1",
-    "mocha": "^4.0.1",
-    "nyc": "^11.3.0",
-    "ts-node": "^3.3.0",
-    "tslint": "^5.8.0",
-    "tslint-config-airbnb": "^5.3.0",
-    "typescript": "^2.6.1"
+    "@types/jest": "^22.2.3",
+    "@types/node": "^10.0.8",
+    "jest": "^22.4.3",
+    "prettier": "1.12.1",
+    "ts-jest": "^22.4.6",
+    "ts-node": "^6.0.3",
+    "tslint": "^5.10.0",
+    "tslint-config-airbnb": "^5.8.0",
+    "typedoc": "^0.11.1",
+    "typescript": "^2.8.3"
   }
 }

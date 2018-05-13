@@ -4,9 +4,9 @@
     "target": "es5",
     "noImplicitAny": true,
     "strictNullChecks": false,
-    "lib": ["dom", "es6", "es2015.promise", "es2017.object"],
-    "typeRoots": ["./node_modules/@types"],
+    "lib": ["es5", "es6", "dom"],
     "outDir": "./build"
   },
-  "exclude": ["./test/*", "./build"]
+  "include": ["src/"],
+  "exclude": ["./test/*", "./build", "node_modules"]
 }
